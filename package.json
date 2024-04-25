@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "typescript": "^5.4.5"
+  },
+  "name": "@furinax9/numts",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "devDependencies": {
+    "tsup": "^8.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsup"
+  },
+  "repository": {
+    "url": "git+https://github.com/beawkiattisak/numts.git"
+  },
+  "keywords": [
+    "numts"
+  ],
+  "license": "ISC",
+  "description": "simple numpy on js,ts",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ]
+}
